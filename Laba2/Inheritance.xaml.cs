@@ -54,9 +54,9 @@ namespace Laba2
 
             double scaleFactor = Convert.ToDouble(ScaleTextBox1.Text);
 
-            Line line = new Line(name, x1, y1, x2, y2, selectedColor.ToString(), scaleFactor);
+            Line line = new Line(name, x1, y1, x2, y2, colorName, scaleFactor);
 
-            MessageBox.Show($"Довжина лінії: {line.Lenght()}");
+            MessageBox.Show($"Довжина лінії '{line.Name}' кольору {line.LineColor}: {line.Lenght()}");
         }
     }
 }

@@ -12,13 +12,18 @@
         <TextBox x:Name="Y1TextBox" HorizontalAlignment="Left" Margin="56,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="X2TextBox" HorizontalAlignment="Left" Margin="216,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="Y2TextBox" HorizontalAlignment="Left" Margin="216,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="ScaleTextBox1" HorizontalAlignment="Left" Margin="375,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ScaleTextBox1" HorizontalAlignment="Left" Margin="420,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="ColorComboBox" HorizontalAlignment="Left" Margin="375,38,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
             <ComboBoxItem Content="Червоний" Background="Red"/>
             <ComboBoxItem Content="Зелений" Background="Green"/>
             <ComboBoxItem Content="Синій" Background="Blue"/>
         </ComboBox>
         <Button Content="Розрахунок" HorizontalAlignment="Left" Margin="216,158,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <Label Content="x1" HorizontalAlignment="Left" Margin="29,62,0,0" VerticalAlignment="Top" Height="30"/>
+        <Label Content="y1" HorizontalAlignment="Left" Margin="29,95,0,0" VerticalAlignment="Top" Height="30"/>
+        <Label Content="x2" HorizontalAlignment="Left" Margin="189,62,0,0" VerticalAlignment="Top" Height="30"/>
+        <Label Content="y2" HorizontalAlignment="Left" Margin="189,97,0,0" VerticalAlignment="Top" Height="30"/>
+        <Label Content="Scale:" HorizontalAlignment="Left" Margin="375,98,0,0" VerticalAlignment="Top" Height="30"/>
 
     </Grid>
 </Window>
